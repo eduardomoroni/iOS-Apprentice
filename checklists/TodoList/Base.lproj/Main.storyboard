@@ -13,7 +13,7 @@
         <!--Checklists-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TodoList" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="CheckListViewController" customModule="TodoList" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -58,7 +58,7 @@
                     <navigationItem key="navigationItem" title="Checklists" id="Hrd-Iy-26F">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="0mm-xR-HWW">
                             <connections>
-                                <segue destination="582-pI-Jta" kind="show" id="mqP-46-DII"/>
+                                <segue destination="582-pI-Jta" kind="show" identifier="AddItem" id="mqP-46-DII"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
