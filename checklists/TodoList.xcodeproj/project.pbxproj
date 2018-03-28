@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D2E1B71F206BC5C600A9A8C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1B71E206BC5C600A9A8C5 /* AppDelegate.swift */; };
-		D2E1B721206BC5C600A9A8C5 /* UITableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1B720206BC5C600A9A8C5 /* UITableViewController.swift */; };
+		D2E1B721206BC5C600A9A8C5 /* ChechlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1B720206BC5C600A9A8C5 /* ChechlistViewController.swift */; };
 		D2E1B724206BC5C600A9A8C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E1B722206BC5C600A9A8C5 /* Main.storyboard */; };
 		D2E1B726206BC5C600A9A8C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2E1B725206BC5C600A9A8C5 /* Assets.xcassets */; };
 		D2E1B729206BC5C600A9A8C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E1B727206BC5C600A9A8C5 /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 /* Begin PBXFileReference section */
 		D2E1B71B206BC5C600A9A8C5 /* TodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E1B71E206BC5C600A9A8C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D2E1B720206BC5C600A9A8C5 /* UITableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewController.swift; sourceTree = "<group>"; };
+		D2E1B720206BC5C600A9A8C5 /* ChechlistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChechlistViewController.swift; sourceTree = "<group>"; };
 		D2E1B723206BC5C600A9A8C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D2E1B725206BC5C600A9A8C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2E1B728206BC5C600A9A8C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				D2E1B71E206BC5C600A9A8C5 /* AppDelegate.swift */,
-				D2E1B720206BC5C600A9A8C5 /* UITableViewController.swift */,
+				D2E1B720206BC5C600A9A8C5 /* ChechlistViewController.swift */,
 				D2E1B741206BF2A200A9A8C5 /* ChecklistItem.swift */,
 				D2E1B722206BC5C600A9A8C5 /* Main.storyboard */,
 				D2E1B725206BC5C600A9A8C5 /* Assets.xcassets */,
@@ -142,7 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2E1B721206BC5C600A9A8C5 /* UITableViewController.swift in Sources */,
+				D2E1B721206BC5C600A9A8C5 /* ChechlistViewController.swift in Sources */,
 				D2E1B742206BF2A200A9A8C5 /* ChecklistItem.swift in Sources */,
 				D2E1B748206C0A5A00A9A8C5 /* CustomTableViewCell.swift in Sources */,
 				D2E1B71F206BC5C600A9A8C5 /* AppDelegate.swift in Sources */,

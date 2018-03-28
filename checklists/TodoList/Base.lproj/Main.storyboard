@@ -55,7 +55,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Checklists" id="Hrd-Iy-26F"/>
+                    <navigationItem key="navigationItem" title="Checklists" id="Hrd-Iy-26F">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="0mm-xR-HWW">
+                            <connections>
+                                <action selector="addItem" destination="BYZ-38-t0r" id="6CP-2O-bXZ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="lSg-Km-27W" id="52W-qU-9jQ"/>
                     </connections>
