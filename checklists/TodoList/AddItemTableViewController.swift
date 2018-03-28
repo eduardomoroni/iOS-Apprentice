@@ -1,6 +1,6 @@
 import UIKit
 
-class AddItemViewControllerTableViewController: UITableViewController, UITextFieldDelegate {
+class AddItemTableViewController: UITableViewController {
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var doneBarButton: UIBarButtonItem!
     
@@ -28,19 +28,18 @@ class AddItemViewControllerTableViewController: UITableViewController, UITextFie
         print("Contents of the text field: \(textField.text!)")
         navigationController?.popViewController(animated:true)
     }
-    
+}
+
+extension AddItemTableViewController: UITextFieldDelegate {
     func textField(_ textField: UITextField,
                    shouldChangeCharactersIn range: NSRange,
                    replacementString string: String) -> Bool {
         let oldText = textField.text!
         let stringRange = Range(range, in:oldText)!
         let newText = oldText.replacingCharacters(in: stringRange,with: string)
-        if newText.isEmpty {
-            doneBarButton.isEnabled = false
-        } else {
-            doneBarButton.isEnabled = true
-        }
+
+        doneBarButton.isEnabled = !newText.isEmpty
+
         return true
     }
 }
-

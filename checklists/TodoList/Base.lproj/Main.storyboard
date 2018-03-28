@@ -73,7 +73,7 @@
         <!--Add Item-->
         <scene sceneID="xgj-7S-pLX">
             <objects>
-                <tableViewController id="582-pI-Jta" customClass="AddItemViewControllerTableViewController" customModule="TodoList" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="582-pI-Jta" customClass="AddItemTableViewController" customModule="TodoList" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="mGx-tK-Zso">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -132,7 +132,7 @@
                                 <action selector="cancel" destination="582-pI-Jta" id="1YI-ID-RKq"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="Y1B-rt-UZD">
+                        <barButtonItem key="rightBarButtonItem" enabled="NO" systemItem="done" id="Y1B-rt-UZD">
                             <connections>
                                 <action selector="done" destination="582-pI-Jta" id="JZC-pj-vwu"/>
                             </connections>
