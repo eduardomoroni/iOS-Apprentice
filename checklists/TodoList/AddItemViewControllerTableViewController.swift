@@ -1,10 +1,16 @@
 import UIKit
 
 class AddItemViewControllerTableViewController: UITableViewController {
-
+    @IBOutlet weak var textField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.largeTitleDisplayMode = .never
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        textField.becomeFirstResponder()
     }
     
     override func tableView(_ tableView: UITableView,
@@ -18,6 +24,7 @@ class AddItemViewControllerTableViewController: UITableViewController {
     }
     
     @IBAction func done() {
+        print("Contents of the text field: \(textField.text!)")
         navigationController?.popViewController(animated:true)
     }
 }
