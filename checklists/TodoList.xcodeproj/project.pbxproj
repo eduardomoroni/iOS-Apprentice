@@ -62,7 +62,6 @@
 				D2E1B749206C214100A9A8C5 /* AddItemViewController.swift */,
 				D2951EE7206D68EA006E4DC4 /* AllListsViewController.swift */,
 				D2E1B720206BC5C600A9A8C5 /* ChecklistViewController.swift */,
-				D2951EEE206D7927006E4DC4 /* ListDetailViewController.swift */,
 			);
 			path = viewController;
 			sourceTree = "<group>";
@@ -101,6 +100,7 @@
 				D2E1B722206BC5C600A9A8C5 /* Main.storyboard */,
 				D2E1B725206BC5C600A9A8C5 /* Assets.xcassets */,
 				D2E1B727206BC5C600A9A8C5 /* LaunchScreen.storyboard */,
+				D2951EEE206D7927006E4DC4 /* ListDetailViewController.swift */,
 				D2E1B72A206BC5C600A9A8C5 /* Info.plist */,
 			);
 			path = TodoList;
