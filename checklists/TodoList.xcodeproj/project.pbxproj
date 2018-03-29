@@ -14,7 +14,7 @@
 		D2E1B729206BC5C600A9A8C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E1B727206BC5C600A9A8C5 /* LaunchScreen.storyboard */; };
 		D2E1B742206BF2A200A9A8C5 /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1B741206BF2A200A9A8C5 /* ChecklistItem.swift */; };
 		D2E1B748206C0A5A00A9A8C5 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1B747206C0A5A00A9A8C5 /* CustomTableViewCell.swift */; };
-		D2E1B74A206C214100A9A8C5 /* AddItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1B749206C214100A9A8C5 /* AddItemTableViewController.swift */; };
+		D2E1B74A206C214100A9A8C5 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1B749206C214100A9A8C5 /* AddItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		D2E1B72A206BC5C600A9A8C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2E1B741206BF2A200A9A8C5 /* ChecklistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
 		D2E1B747206C0A5A00A9A8C5 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
-		D2E1B749206C214100A9A8C5 /* AddItemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemTableViewController.swift; sourceTree = "<group>"; };
+		D2E1B749206C214100A9A8C5 /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +68,7 @@
 				D2E1B727206BC5C600A9A8C5 /* LaunchScreen.storyboard */,
 				D2E1B72A206BC5C600A9A8C5 /* Info.plist */,
 				D2E1B747206C0A5A00A9A8C5 /* CustomTableViewCell.swift */,
-				D2E1B749206C214100A9A8C5 /* AddItemTableViewController.swift */,
+				D2E1B749206C214100A9A8C5 /* AddItemViewController.swift */,
 			);
 			path = TodoList;
 			sourceTree = "<group>";
@@ -148,7 +148,7 @@
 				D2E1B721206BC5C600A9A8C5 /* ChecklistViewController.swift in Sources */,
 				D2E1B742206BF2A200A9A8C5 /* ChecklistItem.swift in Sources */,
 				D2E1B748206C0A5A00A9A8C5 /* CustomTableViewCell.swift in Sources */,
-				D2E1B74A206C214100A9A8C5 /* AddItemTableViewController.swift in Sources */,
+				D2E1B74A206C214100A9A8C5 /* AddItemViewController.swift in Sources */,
 				D2E1B71F206BC5C600A9A8C5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -2,6 +2,7 @@ import UIKit
 
 class CustomTableViewCell: UITableViewCell {
     @IBOutlet weak var cellLabel: UILabel!
+    @IBOutlet weak var checkMarkLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -15,9 +16,9 @@ class CustomTableViewCell: UITableViewCell {
         cellLabel.text = item.text
         
         if item.checked {
-            self.accessoryType = .checkmark
+            checkMarkLabel.text = "✓"
         } else {
-            self.accessoryType = .none
+            checkMarkLabel.text = ""
         }
     }
 
