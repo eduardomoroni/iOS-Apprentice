@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D2951EE8206D68EA006E4DC4 /* AllListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2951EE7206D68EA006E4DC4 /* AllListsViewController.swift */; };
+		D2951EEA206D6E99006E4DC4 /* Checklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2951EE9206D6E99006E4DC4 /* Checklist.swift */; };
 		D2E1B71F206BC5C600A9A8C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1B71E206BC5C600A9A8C5 /* AppDelegate.swift */; };
 		D2E1B721206BC5C600A9A8C5 /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1B720206BC5C600A9A8C5 /* ChecklistViewController.swift */; };
 		D2E1B724206BC5C600A9A8C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E1B722206BC5C600A9A8C5 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		D2951EE7206D68EA006E4DC4 /* AllListsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllListsViewController.swift; sourceTree = "<group>"; };
+		D2951EE9206D6E99006E4DC4 /* Checklist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checklist.swift; sourceTree = "<group>"; };
 		D2E1B71B206BC5C600A9A8C5 /* TodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E1B71E206BC5C600A9A8C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2E1B720206BC5C600A9A8C5 /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				D2E1B747206C0A5A00A9A8C5 /* CustomTableViewCell.swift */,
 				D2E1B749206C214100A9A8C5 /* AddItemViewController.swift */,
 				D2951EE7206D68EA006E4DC4 /* AllListsViewController.swift */,
+				D2951EE9206D6E99006E4DC4 /* Checklist.swift */,
 			);
 			path = TodoList;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 				D2E1B748206C0A5A00A9A8C5 /* CustomTableViewCell.swift in Sources */,
 				D2E1B74A206C214100A9A8C5 /* AddItemViewController.swift in Sources */,
 				D2E1B71F206BC5C600A9A8C5 /* AppDelegate.swift in Sources */,
+				D2951EEA206D6E99006E4DC4 /* Checklist.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
