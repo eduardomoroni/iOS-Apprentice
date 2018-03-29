@@ -47,13 +47,11 @@ class CheckListViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "AddItem" {
-            let controller = segue.destination as! AddItemTableViewController
-            controller.delegate = self
-        } else if segue.identifier == "EditItem" {
-            let controller = segue.destination as! AddItemTableViewController
-            controller.delegate = self
-            
+        let controller = segue.destination as! ItemDetailView
+        controller.delegate = self
+        
+        if segue.identifier == "EditItem" {
+            print(controller)
             if let indexPath = tableView.indexPath(for: sender as! UITableViewCell) {
                 controller.itemToEdit = items[indexPath.row]
             }
@@ -106,11 +104,11 @@ extension CheckListViewController: UITableViewDelegate {
 }
 
 extension CheckListViewController: AddItemViewControllerDelegate {
-    func addItemViewControllerDidCancel(_ controller: AddItemTableViewController) {
+    func addItemViewControllerDidCancel(_ controller: ItemDetailView) {
         navigationController?.popViewController(animated:true)
     }
 
-    func addItemViewController(_ controller: AddItemTableViewController, didFinishAdding item: ChecklistItem) {
+    func addItemViewController(_ controller: ItemDetailView, didFinishAdding item: ChecklistItem) {
         let newRowIndex = items.count
         items.append(item)
         
@@ -120,7 +118,7 @@ extension CheckListViewController: AddItemViewControllerDelegate {
         navigationController?.popViewController(animated:true)
     }
 
-    func addItemViewController(_ controller: AddItemTableViewController, didFinishEditing item: ChecklistItem) {
+    func addItemViewController(_ controller: ItemDetailView, didFinishEditing item: ChecklistItem) {
         if let index = items.index(of: item) {
             let indexPath = IndexPath(row: index, section: 0)
             if let cell = tableView.cellForRow(at: indexPath) {

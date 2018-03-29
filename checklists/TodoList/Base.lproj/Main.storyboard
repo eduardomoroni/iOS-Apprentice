@@ -53,7 +53,7 @@
                                         <connections>
                                             <outlet property="cellLabel" destination="tQL-fN-PHo" id="Rlm-VU-0J0"/>
                                             <outlet property="checkMarkLabel" destination="d89-ko-46w" id="xbz-d9-aZl"/>
-                                            <segue destination="582-pI-Jta" kind="show" trigger="accessoryAction" id="6Ej-bc-WHP"/>
+                                            <segue destination="582-pI-Jta" kind="show" identifier="EditItem" trigger="accessoryAction" id="6Ej-bc-WHP"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -87,7 +87,7 @@
         <!--Add Item-->
         <scene sceneID="xgj-7S-pLX">
             <objects>
-                <tableViewController id="582-pI-Jta" customClass="AddItemTableViewController" customModule="TodoList" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="582-pI-Jta" customClass="ItemDetailView" customModule="TodoList" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="mGx-tK-Zso">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -181,6 +181,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="mqP-46-DII"/>
+        <segue reference="6Ej-bc-WHP"/>
     </inferredMetricsTieBreakers>
 </document>

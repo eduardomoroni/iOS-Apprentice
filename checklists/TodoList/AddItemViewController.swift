@@ -1,12 +1,12 @@
 import UIKit
 
 protocol AddItemViewControllerDelegate: class {
-    func addItemViewController(_ controller: AddItemTableViewController, didFinishEditing item: ChecklistItem)
-    func addItemViewControllerDidCancel(_ controller: AddItemTableViewController)
-    func addItemViewController(_ controller: AddItemTableViewController, didFinishAdding item: ChecklistItem)
+    func addItemViewController(_ controller: ItemDetailView, didFinishEditing item: ChecklistItem)
+    func addItemViewControllerDidCancel(_ controller: ItemDetailView)
+    func addItemViewController(_ controller: ItemDetailView, didFinishAdding item: ChecklistItem)
 }
 
-class AddItemTableViewController: UITableViewController {
+class ItemDetailView: UITableViewController {
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var doneBarButton: UIBarButtonItem!
     weak var delegate: AddItemViewControllerDelegate?
@@ -15,6 +15,7 @@ class AddItemTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.largeTitleDisplayMode = .never
+        
         if let item = itemToEdit {
             title = "Edit Item"
             textField.text = item.text
@@ -46,10 +47,11 @@ class AddItemTableViewController: UITableViewController {
             item.text = textField.text!
             item.checked = false
             delegate?.addItemViewController(self, didFinishAdding: item)
-        } }
+        }
+    }
 }
 
-extension AddItemTableViewController: UITextFieldDelegate {
+extension ItemDetailView: UITextFieldDelegate {
     func textField(_ textField: UITextField,
                    shouldChangeCharactersIn range: NSRange,
                    replacementString string: String) -> Bool {
