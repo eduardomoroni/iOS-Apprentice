@@ -49,6 +49,7 @@ class ItemDetailView: UITableViewController {
             delegate?.addItemViewController(self, didFinishAdding: item)
         }
     }
+
 }
 
 extension ItemDetailView: UITextFieldDelegate {
