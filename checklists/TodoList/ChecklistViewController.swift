@@ -3,12 +3,14 @@ import UIKit
 class CheckListViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     var items = [ChecklistItem]()
+    var checklist: Checklist!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.dataSource = self
         tableView.delegate = self
         navigationItem.largeTitleDisplayMode = .never
+        title = checklist.name
         loadChecklistItems()
     }
 
