@@ -51,7 +51,7 @@ class AllListsViewController: UITableViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "ShowChecklist" {
-            let controller = segue.destination as! CheckListViewController
+            let controller = segue.destination as! ChecklistViewController
             controller.checklist = sender as! Checklist
         }
     }

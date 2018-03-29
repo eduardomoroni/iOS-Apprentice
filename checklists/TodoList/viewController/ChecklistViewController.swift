@@ -1,6 +1,6 @@
 import UIKit
 
-class CheckListViewController: UIViewController {
+class ChecklistViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     var items = [ChecklistItem]()
     var checklist: Checklist!
@@ -63,7 +63,7 @@ class CheckListViewController: UIViewController {
     }
 }
 
-extension CheckListViewController: UITableViewDataSource {
+extension ChecklistViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView,
                             numberOfRowsInSection section: Int) -> Int {
         return items.count
@@ -82,7 +82,7 @@ extension CheckListViewController: UITableViewDataSource {
     }
 }
 
-extension CheckListViewController: UITableViewDelegate {
+extension ChecklistViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView,
                             didSelectRowAt indexPath: IndexPath) {
         
@@ -109,7 +109,7 @@ extension CheckListViewController: UITableViewDelegate {
     }
 }
 
-extension CheckListViewController: AddItemViewControllerDelegate {
+extension ChecklistViewController: AddItemViewControllerDelegate {
     func addItemViewControllerDidCancel(_ controller: ItemDetailView) {
         navigationController?.popViewController(animated:true)
     }

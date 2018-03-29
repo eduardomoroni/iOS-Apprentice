@@ -45,6 +45,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D2951EEB206D72AE006E4DC4 /* domain */ = {
+			isa = PBXGroup;
+			children = (
+				D2E1B741206BF2A200A9A8C5 /* ChecklistItem.swift */,
+				D2951EE9206D6E99006E4DC4 /* Checklist.swift */,
+			);
+			path = domain;
+			sourceTree = "<group>";
+		};
+		D2951EEC206D72E7006E4DC4 /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				D2E1B749206C214100A9A8C5 /* AddItemViewController.swift */,
+				D2951EE7206D68EA006E4DC4 /* AllListsViewController.swift */,
+				D2E1B720206BC5C600A9A8C5 /* ChecklistViewController.swift */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		D2951EED206D7303006E4DC4 /* uiCustomElements */ = {
+			isa = PBXGroup;
+			children = (
+				D2E1B747206C0A5A00A9A8C5 /* CustomTableViewCell.swift */,
+			);
+			path = uiCustomElements;
+			sourceTree = "<group>";
+		};
 		D2E1B712206BC5C600A9A8C5 = {
 			isa = PBXGroup;
 			children = (
@@ -64,17 +91,14 @@
 		D2E1B71D206BC5C600A9A8C5 /* TodoList */ = {
 			isa = PBXGroup;
 			children = (
+				D2951EED206D7303006E4DC4 /* uiCustomElements */,
+				D2951EEC206D72E7006E4DC4 /* viewController */,
+				D2951EEB206D72AE006E4DC4 /* domain */,
 				D2E1B71E206BC5C600A9A8C5 /* AppDelegate.swift */,
-				D2E1B720206BC5C600A9A8C5 /* ChecklistViewController.swift */,
-				D2E1B741206BF2A200A9A8C5 /* ChecklistItem.swift */,
 				D2E1B722206BC5C600A9A8C5 /* Main.storyboard */,
 				D2E1B725206BC5C600A9A8C5 /* Assets.xcassets */,
 				D2E1B727206BC5C600A9A8C5 /* LaunchScreen.storyboard */,
 				D2E1B72A206BC5C600A9A8C5 /* Info.plist */,
-				D2E1B747206C0A5A00A9A8C5 /* CustomTableViewCell.swift */,
-				D2E1B749206C214100A9A8C5 /* AddItemViewController.swift */,
-				D2951EE7206D68EA006E4DC4 /* AllListsViewController.swift */,
-				D2951EE9206D6E99006E4DC4 /* Checklist.swift */,
 			);
 			path = TodoList;
 			sourceTree = "<group>";
