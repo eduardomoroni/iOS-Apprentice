@@ -40,6 +40,15 @@ class AllListsViewController: UITableViewController {
             cell.accessoryType = .detailDisclosureButton
             return cell }
     
+    override func tableView(
+        _ tableView: UITableView,
+        commit editingStyle: UITableViewCellEditingStyle,
+        forRowAt indexPath: IndexPath) {
+        lists.remove(at: indexPath.row)
+        let indexPaths = [indexPath]
+        tableView.deleteRows(at: indexPaths, with: .automatic)
+    }
+    
     func makeCell(for tableView: UITableView) -> UITableViewCell {
         let cellIdentifier = "Cell"
         if let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier) {
@@ -58,6 +67,16 @@ class AllListsViewController: UITableViewController {
             controller.delegate = self
         }
     }
+    
+    override func tableView(_ tableView: UITableView, accessoryButtonTappedForRowWith indexPath: IndexPath) {
+        let controller = storyboard!.instantiateViewController(withIdentifier: "ListDetailViewController") as! ListDetailViewController
+        controller.delegate = self
+        
+        let checklist = lists[indexPath.row]
+        controller.checklistToEdit = checklist
+        navigationController?.pushViewController(controller, animated: true)
+    }
+    
 }
 
 extension AllListsViewController: ListDetailViewControllerDelegate {
