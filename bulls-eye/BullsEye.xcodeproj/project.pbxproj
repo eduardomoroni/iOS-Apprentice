@@ -7,27 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D21D3D8D206A788D00F84AEC /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21D3D8C206A788D00F84AEC /* AboutViewController.swift */; };
-		D2693D14206924810002197C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2693D13206924810002197C /* AppDelegate.swift */; };
-		D2693D16206924810002197C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2693D15206924810002197C /* ViewController.swift */; };
-		D2693D19206924810002197C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2693D17206924810002197C /* Main.storyboard */; };
-		D2693D1B206924810002197C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2693D1A206924810002197C /* Assets.xcassets */; };
-		D2693D1E206924810002197C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2693D1C206924810002197C /* LaunchScreen.storyboard */; };
+		DD848B731EEBA850007D8A56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD848B721EEBA850007D8A56 /* AppDelegate.swift */; };
+		DD848B751EEBA850007D8A56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD848B741EEBA850007D8A56 /* ViewController.swift */; };
+		DD848B781EEBA850007D8A56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD848B761EEBA850007D8A56 /* Main.storyboard */; };
+		DD848B7A1EEBA850007D8A56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD848B791EEBA850007D8A56 /* Assets.xcassets */; };
+		DD848B7D1EEBA850007D8A56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD848B7B1EEBA850007D8A56 /* LaunchScreen.storyboard */; };
+		DDFCE69C1EF0D7DF00B42325 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFCE69B1EF0D7DF00B42325 /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D21D3D8C206A788D00F84AEC /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
-		D2693D10206924810002197C /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2693D13206924810002197C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D2693D15206924810002197C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D2693D18206924810002197C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D2693D1A206924810002197C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D2693D1D206924810002197C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D2693D1F206924810002197C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD4643A51EF214F400E877E9 /* BullsEye.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
+		DD848B6F1EEBA850007D8A56 /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD848B721EEBA850007D8A56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD848B741EEBA850007D8A56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD848B771EEBA850007D8A56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD848B791EEBA850007D8A56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD848B7C1EEBA850007D8A56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD848B7E1EEBA850007D8A56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDFCE69B1EF0D7DF00B42325 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D2693D0D206924810002197C /* Frameworks */ = {
+		DD848B6C1EEBA850007D8A56 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,32 +38,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D2693D07206924810002197C = {
+		DD848B661EEBA850007D8A56 = {
 			isa = PBXGroup;
 			children = (
-				D2693D12206924810002197C /* BullsEye */,
-				D2693D11206924810002197C /* Products */,
+				DD848B711EEBA850007D8A56 /* BullsEye */,
+				DD848B701EEBA850007D8A56 /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
 		};
-		D2693D11206924810002197C /* Products */ = {
+		DD848B701EEBA850007D8A56 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2693D10206924810002197C /* BullsEye.app */,
+				DD848B6F1EEBA850007D8A56 /* BullsEye.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D2693D12206924810002197C /* BullsEye */ = {
+		DD848B711EEBA850007D8A56 /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
-				D21D3D8C206A788D00F84AEC /* AboutViewController.swift */,
-				D2693D13206924810002197C /* AppDelegate.swift */,
-				D2693D15206924810002197C /* ViewController.swift */,
-				D2693D17206924810002197C /* Main.storyboard */,
-				D2693D1A206924810002197C /* Assets.xcassets */,
-				D2693D1C206924810002197C /* LaunchScreen.storyboard */,
-				D2693D1F206924810002197C /* Info.plist */,
+				DD4643A51EF214F400E877E9 /* BullsEye.html */,
+				DD848B721EEBA850007D8A56 /* AppDelegate.swift */,
+				DD848B741EEBA850007D8A56 /* ViewController.swift */,
+				DDFCE69B1EF0D7DF00B42325 /* AboutViewController.swift */,
+				DD848B761EEBA850007D8A56 /* Main.storyboard */,
+				DD848B791EEBA850007D8A56 /* Assets.xcassets */,
+				DD848B7B1EEBA850007D8A56 /* LaunchScreen.storyboard */,
+				DD848B7E1EEBA850007D8A56 /* Info.plist */,
 			);
 			path = BullsEye;
 			sourceTree = "<group>";
@@ -70,13 +75,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D2693D0F206924810002197C /* BullsEye */ = {
+		DD848B6E1EEBA850007D8A56 /* BullsEye */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2693D22206924810002197C /* Build configuration list for PBXNativeTarget "BullsEye" */;
+			buildConfigurationList = DD848B811EEBA850007D8A56 /* Build configuration list for PBXNativeTarget "BullsEye" */;
 			buildPhases = (
-				D2693D0C206924810002197C /* Sources */,
-				D2693D0D206924810002197C /* Frameworks */,
-				D2693D0E206924810002197C /* Resources */,
+				DD848B6B1EEBA850007D8A56 /* Sources */,
+				DD848B6C1EEBA850007D8A56 /* Frameworks */,
+				DD848B6D1EEBA850007D8A56 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,26 +89,25 @@
 			);
 			name = BullsEye;
 			productName = BullsEye;
-			productReference = D2693D10206924810002197C /* BullsEye.app */;
+			productReference = DD848B6F1EEBA850007D8A56 /* BullsEye.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D2693D08206924810002197C /* Project object */ = {
+		DD848B671EEBA850007D8A56 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
-				ORGANIZATIONNAME = "Eduardo Moroni";
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Razeware;
 				TargetAttributes = {
-					D2693D0F206924810002197C = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+					DD848B6E1EEBA850007D8A56 = {
+						CreatedOnToolsVersion = 9.0;
 					};
 				};
 			};
-			buildConfigurationList = D2693D0B206924810002197C /* Build configuration list for PBXProject "BullsEye" */;
+			buildConfigurationList = DD848B6A1EEBA850007D8A56 /* Build configuration list for PBXProject "BullsEye" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,55 +115,55 @@
 				en,
 				Base,
 			);
-			mainGroup = D2693D07206924810002197C;
-			productRefGroup = D2693D11206924810002197C /* Products */;
+			mainGroup = DD848B661EEBA850007D8A56;
+			productRefGroup = DD848B701EEBA850007D8A56 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D2693D0F206924810002197C /* BullsEye */,
+				DD848B6E1EEBA850007D8A56 /* BullsEye */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D2693D0E206924810002197C /* Resources */ = {
+		DD848B6D1EEBA850007D8A56 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2693D1E206924810002197C /* LaunchScreen.storyboard in Resources */,
-				D2693D1B206924810002197C /* Assets.xcassets in Resources */,
-				D2693D19206924810002197C /* Main.storyboard in Resources */,
+				DD848B7D1EEBA850007D8A56 /* LaunchScreen.storyboard in Resources */,
+				DD848B7A1EEBA850007D8A56 /* Assets.xcassets in Resources */,
+				DD848B781EEBA850007D8A56 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D2693D0C206924810002197C /* Sources */ = {
+		DD848B6B1EEBA850007D8A56 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D21D3D8D206A788D00F84AEC /* AboutViewController.swift in Sources */,
-				D2693D16206924810002197C /* ViewController.swift in Sources */,
-				D2693D14206924810002197C /* AppDelegate.swift in Sources */,
+				DDFCE69C1EF0D7DF00B42325 /* AboutViewController.swift in Sources */,
+				DD848B751EEBA850007D8A56 /* ViewController.swift in Sources */,
+				DD848B731EEBA850007D8A56 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D2693D17206924810002197C /* Main.storyboard */ = {
+		DD848B761EEBA850007D8A56 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D2693D18206924810002197C /* Base */,
+				DD848B771EEBA850007D8A56 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		D2693D1C206924810002197C /* LaunchScreen.storyboard */ = {
+		DD848B7B1EEBA850007D8A56 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D2693D1D206924810002197C /* Base */,
+				DD848B7C1EEBA850007D8A56 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -167,7 +171,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D2693D20206924810002197C /* Debug */ = {
+		DD848B7F1EEBA850007D8A56 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -215,7 +219,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -224,7 +228,7 @@
 			};
 			name = Debug;
 		};
-		D2693D21206924810002197C /* Release */ = {
+		DD848B801EEBA850007D8A56 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -266,7 +270,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -274,30 +278,26 @@
 			};
 			name = Release;
 		};
-		D2693D23206924810002197C /* Debug */ = {
+		DD848B821EEBA850007D8A56 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BullsEye/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.BullsEye;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eduardomoroni.BullsEye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		D2693D24206924810002197C /* Release */ = {
+		DD848B831EEBA850007D8A56 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BullsEye/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.BullsEye;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eduardomoroni.BullsEye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,25 +307,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D2693D0B206924810002197C /* Build configuration list for PBXProject "BullsEye" */ = {
+		DD848B6A1EEBA850007D8A56 /* Build configuration list for PBXProject "BullsEye" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D2693D20206924810002197C /* Debug */,
-				D2693D21206924810002197C /* Release */,
+				DD848B7F1EEBA850007D8A56 /* Debug */,
+				DD848B801EEBA850007D8A56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2693D22206924810002197C /* Build configuration list for PBXNativeTarget "BullsEye" */ = {
+		DD848B811EEBA850007D8A56 /* Build configuration list for PBXNativeTarget "BullsEye" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D2693D23206924810002197C /* Debug */,
-				D2693D24206924810002197C /* Release */,
+				DD848B821EEBA850007D8A56 /* Debug */,
+				DD848B831EEBA850007D8A56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D2693D08206924810002197C /* Project object */;
+	rootObject = DD848B671EEBA850007D8A56 /* Project object */;
 }
