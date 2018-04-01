@@ -11,7 +11,6 @@ class ChecklistViewController: UIViewController {
         tableView.delegate = self
         navigationItem.largeTitleDisplayMode = .never
         title = checklist.name
-//        loadChecklistItems()
     }
 
     override func didReceiveMemoryWarning() {
@@ -64,7 +63,6 @@ extension ChecklistViewController: UITableViewDelegate {
         }
         
         tableView.deselectRow(at: indexPath, animated: true)
-//        saveChecklistItems()
     }
     
     func tableView(
@@ -74,7 +72,6 @@ extension ChecklistViewController: UITableViewDelegate {
         checklist.items.remove(at: indexPath.row)
         let indexPaths = [indexPath]
         tableView.deleteRows(at: indexPaths, with: .automatic)
-//        saveChecklistItems()
     }
 }
 
@@ -91,7 +88,6 @@ extension ChecklistViewController: AddItemViewControllerDelegate {
         let indexPaths = [indexPath]
         tableView.insertRows(at: indexPaths, with: .automatic)
         navigationController?.popViewController(animated:true)
-//        saveChecklistItems()
     }
 
     func addItemViewController(_ controller: ItemDetailView, didFinishEditing item: ChecklistItem) {
@@ -103,6 +99,5 @@ extension ChecklistViewController: AddItemViewControllerDelegate {
             }
         }
         navigationController?.popViewController(animated:true)
-//        saveChecklistItems()
     }
 }
