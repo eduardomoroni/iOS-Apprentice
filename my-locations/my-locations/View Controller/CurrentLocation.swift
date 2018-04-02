@@ -20,9 +20,15 @@ class CurrentLocationViewController: UIViewController {
     }
 
     @IBAction func getLocation() {
+        let authStatus = CLLocationManager.authorizationStatus()
+        
+        if authStatus == .notDetermined {
+            locationManager.requestWhenInUseAuthorization()
+            return
+        }
+        
         locationManager.delegate = self
-        locationManager.desiredAccuracy =
-        kCLLocationAccuracyNearestTenMeters
+        locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
         locationManager.startUpdatingLocation()
     }
 }
