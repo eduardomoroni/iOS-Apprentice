@@ -14,6 +14,7 @@ class CurrentLocationViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        updateLabels()
     }
 
     override func didReceiveMemoryWarning() {
