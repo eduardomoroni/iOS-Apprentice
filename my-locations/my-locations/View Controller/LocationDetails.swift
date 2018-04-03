@@ -61,7 +61,6 @@ class LocationDetailsViewController: UITableViewController {
         categoryLabel.text = categoryName
     }
     
-    // MARK:- Prviate Methods
     func string(from placemark: CLPlacemark) -> String {
         var text = ""
         
