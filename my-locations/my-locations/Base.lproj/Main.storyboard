@@ -211,7 +211,18 @@
                             <outlet property="delegate" destination="UkR-tv-nUN" id="pwq-CC-vfu"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Tag Location" id="qP8-Uz-T7a"/>
+                    <navigationItem key="navigationItem" title="Tag Location" id="qP8-Uz-T7a">
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="MbT-Hd-ih7">
+                            <connections>
+                                <action selector="cancel" destination="UkR-tv-nUN" id="eY8-E2-1IF"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Done" id="Xbp-x2-lWy">
+                            <connections>
+                                <action selector="done" destination="UkR-tv-nUN" id="Mhs-mz-6Cy"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ktf-07-cfr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
