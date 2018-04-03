@@ -39,7 +39,7 @@ class CurrentLocationViewController: UIViewController {
             showLocationServicesDeniedAlert()
             return
         }
-        // Start/stop location updates
+        
         if updatingLocation {
             stopLocationManager()
         } else {
@@ -58,7 +58,7 @@ class CurrentLocationViewController: UIViewController {
             longitudeLabel.text = String(format: "%.8f", location.coordinate.longitude)
             tagButton.isHidden = false
             messageLabel.text = ""
-            // Display reverse geocoded address
+            
             if let placemark = placemark {
                 addressLabel.text = string(from: placemark)
             } else if performingReverseGeocoding {
