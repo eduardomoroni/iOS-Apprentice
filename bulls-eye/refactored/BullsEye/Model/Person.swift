@@ -1,8 +1,8 @@
 import Foundation
 
 class Person {
-  let name: String
-  let score: Score
+  public var score: Score
+  public var name: String
   
   init(name: String, score: Score) {
     self.name = name
