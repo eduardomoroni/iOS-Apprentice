@@ -12,19 +12,21 @@ enum ScoreType: Int {
 class ScoreCalculator {
   func calculate (target: Int, hit: Int) -> Score {
     let difference = abs(target - hit)
-    let points = ScoreType.maxScore.rawValue - difference
+    let score = Score(ScoreType.maxScore.rawValue - difference)
     let bonus = calculateBonus(difference)
 
-    return Score(points + bonus)
+    return score + bonus
   }
 
-  private func calculateBonus(_ difference: Int) -> Int {
+  private func calculateBonus(_ difference: Int) -> Score {
+    var bonus = 0
+    
     if difference == 0 {
-      return Bonus.perfect.rawValue
+      bonus += Bonus.perfect.rawValue
     } else if difference == 1 {
-      return Bonus.almost.rawValue
+      bonus += Bonus.almost.rawValue
     }
 
-    return 0
+    return Score(bonus)
   }
 }

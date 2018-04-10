@@ -14,15 +14,15 @@ class ScoreCalculatorSpecs: QuickSpec {
         let targetValue = 50
         let score = calculator.calculate(target: targetValue, hit: targetValue)
         let expectedScore = Score(Bonus.perfect.rawValue + ScoreType.maxScore.rawValue)
-        
+
         expect(expectedScore == score).to(beTruthy())
       }
-      
+
       it ("should gives almost bonus value if user misses bull eye by one") {
         let targetValue = 50
         let score = calculator.calculate(target: targetValue, hit: targetValue - 1)
         let expectedScore = Score(Bonus.almost.rawValue - 1 + ScoreType.maxScore.rawValue)
-        
+
         expect(expectedScore == score).to(beTruthy())
       }
     }
