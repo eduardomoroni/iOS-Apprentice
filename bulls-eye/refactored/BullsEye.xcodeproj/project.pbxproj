@@ -18,6 +18,7 @@
 		D268BF49207D0A2600BEA227 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = D268BF48207D0A2600BEA227 /* Score.swift */; };
 		D268BF4C207D117A00BEA227 /* ScoreCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D268BF4B207D117A00BEA227 /* ScoreCalculator.swift */; };
 		D268BF4E207D37D400BEA227 /* ScoreSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D268BF4D207D37D400BEA227 /* ScoreSpecs.swift */; };
+		D268BF50207D5E6E00BEA227 /* ScoreCalculatorSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D268BF4F207D5E6E00BEA227 /* ScoreCalculatorSpecs.swift */; };
 		DD848B731EEBA850007D8A56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD848B721EEBA850007D8A56 /* AppDelegate.swift */; };
 		DD848B751EEBA850007D8A56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD848B741EEBA850007D8A56 /* ViewController.swift */; };
 		DD848B781EEBA850007D8A56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD848B761EEBA850007D8A56 /* Main.storyboard */; };
@@ -57,6 +58,7 @@
 		D268BF48207D0A2600BEA227 /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
 		D268BF4B207D117A00BEA227 /* ScoreCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCalculator.swift; sourceTree = "<group>"; };
 		D268BF4D207D37D400BEA227 /* ScoreSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreSpecs.swift; sourceTree = "<group>"; };
+		D268BF4F207D5E6E00BEA227 /* ScoreCalculatorSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCalculatorSpecs.swift; sourceTree = "<group>"; };
 		DD4643A51EF214F400E877E9 /* BullsEye.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 		DD848B6F1EEBA850007D8A56 /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD848B721EEBA850007D8A56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				D203E838207CE79700081BC9 /* BullsEyeSpecs.swift */,
+				D268BF4F207D5E6E00BEA227 /* ScoreCalculatorSpecs.swift */,
 			);
 			path = Game;
 			sourceTree = "<group>";
@@ -384,6 +387,7 @@
 				D203E840207D001F00081BC9 /* PersonSpecs.swift in Sources */,
 				D268BF4E207D37D400BEA227 /* ScoreSpecs.swift in Sources */,
 				57A11CDD207B96D600859756 /* Tests.swift in Sources */,
+				D268BF50207D5E6E00BEA227 /* ScoreCalculatorSpecs.swift in Sources */,
 				D203E839207CE79700081BC9 /* BullsEyeSpecs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
