@@ -1,9 +1,9 @@
-struct Score: Codable {
-  let name: String?
-  let score: Int?
+import Foundation
 
-  private enum CodingKeys: String, CodingKey {
-    case name
-    case score
+class Score {
+  var score: Int
+
+  init(_ score: Int) {
+    self.score = score
   }
 }

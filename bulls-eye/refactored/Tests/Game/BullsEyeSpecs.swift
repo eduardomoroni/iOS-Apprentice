@@ -21,6 +21,10 @@ class BullsEyeSpecs: QuickSpec {
       it ("starts with 1") {
         expect(bullsEye.round).to(equal(1))
       }
+      
+      it("starts with score equal to zero") {
+        expect(bullsEye.score).to(equal(Score(0)))
+      }
     }
     
     describe("New round") {

@@ -3,6 +3,7 @@ import Foundation
 protocol Game {
   var round: Int { get }
   var target: Int { get }
+  var score: Score { get }
   
   func newRound()
 }
@@ -10,6 +11,7 @@ protocol Game {
 class BullsEye: Game {
   var round = 1
   var target = 0
+  var score = Score(0)
   
   init() {
     target = generateRandomNumber()

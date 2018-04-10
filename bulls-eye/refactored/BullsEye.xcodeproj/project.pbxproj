@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		576C24442076518E008E9B82 /* ScoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576C24432076518E008E9B82 /* ScoresViewController.swift */; };
 		576C244620766C6B008E9B82 /* ScoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576C244520766C6B008E9B82 /* ScoreCell.swift */; };
-		576C24492076721F008E9B82 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576C24482076721F008E9B82 /* Score.swift */; };
+		576C24492076721F008E9B82 /* PersonScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576C24482076721F008E9B82 /* PersonScore.swift */; };
 		57A11CDD207B96D600859756 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A11CDC207B96D600859756 /* Tests.swift */; };
 		D203E836207CE76A00081BC9 /* BullsEye.swift in Sources */ = {isa = PBXBuildFile; fileRef = D203E835207CE76A00081BC9 /* BullsEye.swift */; };
 		D203E839207CE79700081BC9 /* BullsEyeSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D203E838207CE79700081BC9 /* BullsEyeSpecs.swift */; };
 		D203E83D207CFEFC00081BC9 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = D203E83C207CFEFC00081BC9 /* Person.swift */; };
 		D203E840207D001F00081BC9 /* PersonSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D203E83F207D001F00081BC9 /* PersonSpecs.swift */; };
-		D268BF49207D0A2600BEA227 /* NewScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D268BF48207D0A2600BEA227 /* NewScore.swift */; };
+		D268BF49207D0A2600BEA227 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = D268BF48207D0A2600BEA227 /* Score.swift */; };
+		D268BF4C207D117A00BEA227 /* ScoreCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D268BF4B207D117A00BEA227 /* ScoreCalculator.swift */; };
 		DD848B731EEBA850007D8A56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD848B721EEBA850007D8A56 /* AppDelegate.swift */; };
 		DD848B751EEBA850007D8A56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD848B741EEBA850007D8A56 /* ViewController.swift */; };
 		DD848B781EEBA850007D8A56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD848B761EEBA850007D8A56 /* Main.storyboard */; };
@@ -42,7 +43,7 @@
 		21778131D07F0727D4503DA2 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		576C24432076518E008E9B82 /* ScoresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresViewController.swift; sourceTree = "<group>"; };
 		576C244520766C6B008E9B82 /* ScoreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCell.swift; sourceTree = "<group>"; };
-		576C24482076721F008E9B82 /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		576C24482076721F008E9B82 /* PersonScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonScore.swift; sourceTree = "<group>"; };
 		57A11CDA207B96D500859756 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57A11CDC207B96D600859756 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		57A11CDE207B96D600859756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,7 +53,8 @@
 		D203E838207CE79700081BC9 /* BullsEyeSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeSpecs.swift; sourceTree = "<group>"; };
 		D203E83C207CFEFC00081BC9 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		D203E83F207D001F00081BC9 /* PersonSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonSpecs.swift; sourceTree = "<group>"; };
-		D268BF48207D0A2600BEA227 /* NewScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScore.swift; sourceTree = "<group>"; };
+		D268BF48207D0A2600BEA227 /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		D268BF4B207D117A00BEA227 /* ScoreCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCalculator.swift; sourceTree = "<group>"; };
 		DD4643A51EF214F400E877E9 /* BullsEye.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 		DD848B6F1EEBA850007D8A56 /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD848B721EEBA850007D8A56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -100,8 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				D203E83C207CFEFC00081BC9 /* Person.swift */,
-				576C24482076721F008E9B82 /* Score.swift */,
-				D268BF48207D0A2600BEA227 /* NewScore.swift */,
+				576C24482076721F008E9B82 /* PersonScore.swift */,
+				D268BF48207D0A2600BEA227 /* Score.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -130,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				D203E835207CE76A00081BC9 /* BullsEye.swift */,
+				D268BF4B207D117A00BEA227 /* ScoreCalculator.swift */,
 			);
 			path = Game;
 			sourceTree = "<group>";
@@ -385,13 +388,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D268BF4C207D117A00BEA227 /* ScoreCalculator.swift in Sources */,
 				D203E836207CE76A00081BC9 /* BullsEye.swift in Sources */,
 				DDFCE69C1EF0D7DF00B42325 /* AboutViewController.swift in Sources */,
-				D268BF49207D0A2600BEA227 /* NewScore.swift in Sources */,
+				D268BF49207D0A2600BEA227 /* Score.swift in Sources */,
 				DD848B751EEBA850007D8A56 /* ViewController.swift in Sources */,
 				DD848B731EEBA850007D8A56 /* AppDelegate.swift in Sources */,
 				576C244620766C6B008E9B82 /* ScoreCell.swift in Sources */,
-				576C24492076721F008E9B82 /* Score.swift in Sources */,
+				576C24492076721F008E9B82 /* PersonScore.swift in Sources */,
 				D203E83D207CFEFC00081BC9 /* Person.swift in Sources */,
 				576C24442076518E008E9B82 /* ScoresViewController.swift in Sources */,
 			);

@@ -13,7 +13,7 @@ class ScoresViewController: UIViewController {
   @IBOutlet weak var highScoresTableView: UITableView!
   @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
-  var scores: [Score] = [] {
+  var scores: [PersonScore] = [] {
     didSet {
       DispatchQueue.main.async {
         self.highScoresTableView.reloadData()
@@ -46,7 +46,7 @@ class ScoresViewController: UIViewController {
   private func parse(jsonData data: Data) {
     do {
       let decoder = JSONDecoder()
-      let scores = try decoder.decode([Score].self, from: data)
+      let scores = try decoder.decode([PersonScore].self, from: data)
       self.scores = scores
     } catch {
       print(error.localizedDescription)
