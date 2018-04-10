@@ -13,6 +13,8 @@
 		57A11CDD207B96D600859756 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A11CDC207B96D600859756 /* Tests.swift */; };
 		D203E836207CE76A00081BC9 /* BullsEye.swift in Sources */ = {isa = PBXBuildFile; fileRef = D203E835207CE76A00081BC9 /* BullsEye.swift */; };
 		D203E839207CE79700081BC9 /* BullsEyeSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D203E838207CE79700081BC9 /* BullsEyeSpecs.swift */; };
+		D203E83D207CFEFC00081BC9 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = D203E83C207CFEFC00081BC9 /* Person.swift */; };
+		D203E840207D001F00081BC9 /* PersonSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D203E83F207D001F00081BC9 /* PersonSpecs.swift */; };
 		DD848B731EEBA850007D8A56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD848B721EEBA850007D8A56 /* AppDelegate.swift */; };
 		DD848B751EEBA850007D8A56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD848B741EEBA850007D8A56 /* ViewController.swift */; };
 		DD848B781EEBA850007D8A56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD848B761EEBA850007D8A56 /* Main.storyboard */; };
@@ -47,6 +49,8 @@
 		CA7C43066304A329DB86604D /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D203E835207CE76A00081BC9 /* BullsEye.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEye.swift; sourceTree = "<group>"; };
 		D203E838207CE79700081BC9 /* BullsEyeSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeSpecs.swift; sourceTree = "<group>"; };
+		D203E83C207CFEFC00081BC9 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		D203E83F207D001F00081BC9 /* PersonSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonSpecs.swift; sourceTree = "<group>"; };
 		DD4643A51EF214F400E877E9 /* BullsEye.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 		DD848B6F1EEBA850007D8A56 /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD848B721EEBA850007D8A56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +97,7 @@
 		576C244720767216008E9B82 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D203E83C207CFEFC00081BC9 /* Person.swift */,
 				576C24482076721F008E9B82 /* Score.swift */,
 			);
 			path = Model;
@@ -101,6 +106,7 @@
 		57A11CDB207B96D600859756 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				D203E83E207D000E00081BC9 /* Model */,
 				D203E837207CE78400081BC9 /* Game */,
 				57A11CDC207B96D600859756 /* Tests.swift */,
 				57A11CDE207B96D600859756 /* Info.plist */,
@@ -131,6 +137,14 @@
 				D203E838207CE79700081BC9 /* BullsEyeSpecs.swift */,
 			);
 			path = Game;
+			sourceTree = "<group>";
+		};
+		D203E83E207D000E00081BC9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D203E83F207D001F00081BC9 /* PersonSpecs.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		DD848B661EEBA850007D8A56 = {
@@ -358,6 +372,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D203E840207D001F00081BC9 /* PersonSpecs.swift in Sources */,
 				57A11CDD207B96D600859756 /* Tests.swift in Sources */,
 				D203E839207CE79700081BC9 /* BullsEyeSpecs.swift in Sources */,
 			);
@@ -373,6 +388,7 @@
 				DD848B731EEBA850007D8A56 /* AppDelegate.swift in Sources */,
 				576C244620766C6B008E9B82 /* ScoreCell.swift in Sources */,
 				576C24492076721F008E9B82 /* Score.swift in Sources */,
+				D203E83D207CFEFC00081BC9 /* Person.swift in Sources */,
 				576C24442076518E008E9B82 /* ScoresViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
