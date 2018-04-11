@@ -11,7 +11,7 @@ protocol Game {
 
 class BullsEye: Game {
   var round = 1
-  var target = 0
+  var target = 100
   var score = Score(0)
   var scoreCalculator = ScoreCalculator()
   
@@ -25,7 +25,9 @@ class BullsEye: Game {
   }
   
   func hit(_ value: Int) -> Score {
-    let score = scoreCalculator.calculate(target: self.target, hit: value)
+    print("Target: \(target)")
+    print("Value: \(value)")
+    let score = scoreCalculator.calculate(target: target, hit: value)
     self.score = self.score + score
     return score
   }
