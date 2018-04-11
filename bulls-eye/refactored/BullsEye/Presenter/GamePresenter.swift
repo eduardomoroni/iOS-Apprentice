@@ -8,6 +8,7 @@ protocol GamePresenter: class {
   var target: Int { get }
   
   func hit(_ value: Int)
+  func newRound()
   func newGame()
 }
 
@@ -45,13 +46,24 @@ class BullsEyePresenter: GamePresenter {
     let pointScored = game.hit(value)
     view?.updateScoreLabel(String(describing: pointScored))
     
-    print(pointScored)
+    print("Points scored: \(pointScored)")
     
     let alertMessage = messageGenerator.congratsMessage(for: pointScored)
     print(alertMessage)
+    syncViewLabels()
   }
   
   func newGame() {
+    self.game = BullsEye()
+    syncViewLabels()
+  }
+  
+  func newRound() {
+    self.game.newRound()
+    syncViewLabels()
+  }
+
+  func syncViewLabels() {
     view?.updateRoundLabel(String(round))
     view?.updateTargetLabel(String(target))
     view?.updateScoreLabel(String(describing: score))
