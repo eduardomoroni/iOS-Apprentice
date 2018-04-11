@@ -49,14 +49,12 @@ class BullsEyePresenter: GamePresenter {
     let pointScored = game.hit(value)
     view?.updateScoreLabel(String(describing: pointScored))
     
-    print("Points scored: \(pointScored)")
-    
     let alertMessage = messageGenerator.congratsMessage(for: pointScored)
     
-    syncViewLabels()
     alerter.popUp(alert: alertMessage, handler: { action in
       self.newRound()
     })
+    syncViewLabels()
   }
   
   func newGame() {

@@ -30,12 +30,10 @@ class BullsEyeViewController: UIViewController, GameViewController {
   }
 
   @IBAction func hitMeTapped() {
-    print("Hit me tapped \(currentValue)")
     presenter?.hit(currentValue)
   }
 
   @IBAction func startNewGame() {
-    print("Let the party begins")
     presenter?.newGame()
   }
 
