@@ -6,12 +6,14 @@ protocol Game {
   var score: Score { get }
   
   func newRound()
+  func hit(_ value: Int) -> Score
 }
 
 class BullsEye: Game {
   var round = 1
   var target = 0
   var score = Score(0)
+  var scoreCalculator = ScoreCalculator()
   
   init() {
     target = generateRandomNumber()
@@ -22,6 +24,12 @@ class BullsEye: Game {
     target = generateRandomNumber()
   }
   
+  func hit(_ value: Int) -> Score {
+    let score = scoreCalculator.calculate(target: self.target, hit: value)
+    self.score = self.score + score
+    return score
+  }
+
   private func generateRandomNumber() -> Int {
     var randomTarget = target
     

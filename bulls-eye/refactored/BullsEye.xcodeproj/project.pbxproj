@@ -10,15 +10,20 @@
 		576C24442076518E008E9B82 /* ScoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576C24432076518E008E9B82 /* ScoresViewController.swift */; };
 		576C244620766C6B008E9B82 /* ScoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576C244520766C6B008E9B82 /* ScoreCell.swift */; };
 		576C24492076721F008E9B82 /* PersonScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576C24482076721F008E9B82 /* PersonScore.swift */; };
-		57A11CDD207B96D600859756 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A11CDC207B96D600859756 /* Tests.swift */; };
-		D203E836207CE76A00081BC9 /* BullsEye.swift in Sources */ = {isa = PBXBuildFile; fileRef = D203E835207CE76A00081BC9 /* BullsEye.swift */; };
+		D203E836207CE76A00081BC9 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = D203E835207CE76A00081BC9 /* Game.swift */; };
 		D203E839207CE79700081BC9 /* BullsEyeSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D203E838207CE79700081BC9 /* BullsEyeSpecs.swift */; };
 		D203E83D207CFEFC00081BC9 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = D203E83C207CFEFC00081BC9 /* Person.swift */; };
 		D203E840207D001F00081BC9 /* PersonSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D203E83F207D001F00081BC9 /* PersonSpecs.swift */; };
+		D22DFDED207E3AA300AD3E79 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22DFDEC207E3AA300AD3E79 /* GameViewController.swift */; };
+		D22DFDF0207E3C5600AD3E79 /* GamePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22DFDEF207E3C5600AD3E79 /* GamePresenter.swift */; };
+		D22DFDF3207E3C7700AD3E79 /* GamePresenterSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22DFDF2207E3C7700AD3E79 /* GamePresenterSpecs.swift */; };
+		D22FD9AB207E4409005FDDA9 /* GameViewControllerSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22FD9AA207E4409005FDDA9 /* GameViewControllerSpecs.swift */; };
 		D268BF49207D0A2600BEA227 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = D268BF48207D0A2600BEA227 /* Score.swift */; };
 		D268BF4C207D117A00BEA227 /* ScoreCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D268BF4B207D117A00BEA227 /* ScoreCalculator.swift */; };
 		D268BF4E207D37D400BEA227 /* ScoreSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D268BF4D207D37D400BEA227 /* ScoreSpecs.swift */; };
 		D268BF50207D5E6E00BEA227 /* ScoreCalculatorSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D268BF4F207D5E6E00BEA227 /* ScoreCalculatorSpecs.swift */; };
+		D29BDF37207E9373008F30D9 /* ScoreAlertGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29BDF36207E9373008F30D9 /* ScoreAlertGenerator.swift */; };
+		D29BDF39207E94E3008F30D9 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29BDF38207E94E3008F30D9 /* Alert.swift */; };
 		DD848B731EEBA850007D8A56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD848B721EEBA850007D8A56 /* AppDelegate.swift */; };
 		DD848B751EEBA850007D8A56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD848B741EEBA850007D8A56 /* ViewController.swift */; };
 		DD848B781EEBA850007D8A56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD848B761EEBA850007D8A56 /* Main.storyboard */; };
@@ -47,18 +52,23 @@
 		576C244520766C6B008E9B82 /* ScoreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCell.swift; sourceTree = "<group>"; };
 		576C24482076721F008E9B82 /* PersonScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonScore.swift; sourceTree = "<group>"; };
 		57A11CDA207B96D500859756 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		57A11CDC207B96D600859756 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		57A11CDE207B96D600859756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8AC40F5D3C9338B6BC281BA /* Pods_BullsEye.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BullsEye.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA7C43066304A329DB86604D /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D203E835207CE76A00081BC9 /* BullsEye.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEye.swift; sourceTree = "<group>"; };
+		D203E835207CE76A00081BC9 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		D203E838207CE79700081BC9 /* BullsEyeSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeSpecs.swift; sourceTree = "<group>"; };
 		D203E83C207CFEFC00081BC9 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		D203E83F207D001F00081BC9 /* PersonSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonSpecs.swift; sourceTree = "<group>"; };
+		D22DFDEC207E3AA300AD3E79 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		D22DFDEF207E3C5600AD3E79 /* GamePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePresenter.swift; sourceTree = "<group>"; };
+		D22DFDF2207E3C7700AD3E79 /* GamePresenterSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePresenterSpecs.swift; sourceTree = "<group>"; };
+		D22FD9AA207E4409005FDDA9 /* GameViewControllerSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewControllerSpecs.swift; sourceTree = "<group>"; };
 		D268BF48207D0A2600BEA227 /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
 		D268BF4B207D117A00BEA227 /* ScoreCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCalculator.swift; sourceTree = "<group>"; };
 		D268BF4D207D37D400BEA227 /* ScoreSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreSpecs.swift; sourceTree = "<group>"; };
 		D268BF4F207D5E6E00BEA227 /* ScoreCalculatorSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCalculatorSpecs.swift; sourceTree = "<group>"; };
+		D29BDF36207E9373008F30D9 /* ScoreAlertGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreAlertGenerator.swift; sourceTree = "<group>"; };
+		D29BDF38207E94E3008F30D9 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		DD4643A51EF214F400E877E9 /* BullsEye.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 		DD848B6F1EEBA850007D8A56 /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD848B721EEBA850007D8A56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +118,7 @@
 				D203E83C207CFEFC00081BC9 /* Person.swift */,
 				576C24482076721F008E9B82 /* PersonScore.swift */,
 				D268BF48207D0A2600BEA227 /* Score.swift */,
+				D29BDF38207E94E3008F30D9 /* Alert.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -115,9 +126,10 @@
 		57A11CDB207B96D600859756 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				D22FD9A9207E43F2005FDDA9 /* View */,
+				D22DFDF1207E3C6400AD3E79 /* Presenter */,
 				D203E83E207D000E00081BC9 /* Model */,
 				D203E837207CE78400081BC9 /* Game */,
-				57A11CDC207B96D600859756 /* Tests.swift */,
 				57A11CDE207B96D600859756 /* Info.plist */,
 			);
 			path = Tests;
@@ -135,8 +147,9 @@
 		D203E834207CE74300081BC9 /* Game */ = {
 			isa = PBXGroup;
 			children = (
-				D203E835207CE76A00081BC9 /* BullsEye.swift */,
+				D203E835207CE76A00081BC9 /* Game.swift */,
 				D268BF4B207D117A00BEA227 /* ScoreCalculator.swift */,
+				D29BDF36207E9373008F30D9 /* ScoreAlertGenerator.swift */,
 			);
 			path = Game;
 			sourceTree = "<group>";
@@ -157,6 +170,38 @@
 				D268BF4D207D37D400BEA227 /* ScoreSpecs.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		D22DFDEB207E3A6600AD3E79 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D22DFDEC207E3AA300AD3E79 /* GameViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D22DFDEE207E3C0700AD3E79 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D22DFDEF207E3C5600AD3E79 /* GamePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D22DFDF1207E3C6400AD3E79 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D22DFDF2207E3C7700AD3E79 /* GamePresenterSpecs.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D22FD9A9207E43F2005FDDA9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D22FD9AA207E4409005FDDA9 /* GameViewControllerSpecs.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		DD848B661EEBA850007D8A56 = {
@@ -185,6 +230,8 @@
 		DD848B711EEBA850007D8A56 /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				D22DFDEE207E3C0700AD3E79 /* Presenter */,
+				D22DFDEB207E3A6600AD3E79 /* View */,
 				D203E834207CE74300081BC9 /* Game */,
 				576C244720767216008E9B82 /* Model */,
 				DD4643A51EF214F400E877E9 /* BullsEye.html */,
@@ -386,9 +433,10 @@
 			files = (
 				D203E840207D001F00081BC9 /* PersonSpecs.swift in Sources */,
 				D268BF4E207D37D400BEA227 /* ScoreSpecs.swift in Sources */,
-				57A11CDD207B96D600859756 /* Tests.swift in Sources */,
 				D268BF50207D5E6E00BEA227 /* ScoreCalculatorSpecs.swift in Sources */,
+				D22FD9AB207E4409005FDDA9 /* GameViewControllerSpecs.swift in Sources */,
 				D203E839207CE79700081BC9 /* BullsEyeSpecs.swift in Sources */,
+				D22DFDF3207E3C7700AD3E79 /* GamePresenterSpecs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,14 +445,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				D268BF4C207D117A00BEA227 /* ScoreCalculator.swift in Sources */,
-				D203E836207CE76A00081BC9 /* BullsEye.swift in Sources */,
+				D203E836207CE76A00081BC9 /* Game.swift in Sources */,
 				DDFCE69C1EF0D7DF00B42325 /* AboutViewController.swift in Sources */,
 				D268BF49207D0A2600BEA227 /* Score.swift in Sources */,
+				D29BDF37207E9373008F30D9 /* ScoreAlertGenerator.swift in Sources */,
 				DD848B751EEBA850007D8A56 /* ViewController.swift in Sources */,
+				D29BDF39207E94E3008F30D9 /* Alert.swift in Sources */,
 				DD848B731EEBA850007D8A56 /* AppDelegate.swift in Sources */,
 				576C244620766C6B008E9B82 /* ScoreCell.swift in Sources */,
 				576C24492076721F008E9B82 /* PersonScore.swift in Sources */,
+				D22DFDF0207E3C5600AD3E79 /* GamePresenter.swift in Sources */,
 				D203E83D207CFEFC00081BC9 /* Person.swift in Sources */,
+				D22DFDED207E3AA300AD3E79 /* GameViewController.swift in Sources */,
 				576C24442076518E008E9B82 /* ScoresViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -593,6 +645,7 @@
 			baseConfigurationReference = 13CC444BE5ACDA3792FD6928 /* Pods-BullsEye.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LL62P32G5C;
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -608,6 +661,7 @@
 			baseConfigurationReference = 14AD6694F43471B886026769 /* Pods-BullsEye.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LL62P32G5C;
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

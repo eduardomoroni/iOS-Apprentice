@@ -1,23 +1,29 @@
 import Foundation
 
 class Score {
-  var score: Int
+  internal(set) var points: Int
 
   init(_ score: Int) {
-    self.score = score
+    self.points = score
   }
 
   func increment(_ by: Int) {
-    score += by
+    points += by
   }
 
   static func +(left: Score, right: Score) -> Score {
-    return Score(left.score + right.score)
+    return Score(left.points + right.points)
   }
 }
 
 extension Score: Equatable {
   static func ==(left: Score, right: Score) -> Bool {
-    return left.score == right.score
+    return left.points == right.points
+  }
+}
+
+extension Score: CustomStringConvertible {
+  var description: String {
+    return "\(self.points)"
   }
 }
