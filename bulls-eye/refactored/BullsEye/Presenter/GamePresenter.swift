@@ -1,4 +1,5 @@
 import Foundation
+import UIKit
 
 protocol GamePresenter: class {
   weak var view: GameViewController? { get set }
@@ -14,6 +15,7 @@ protocol GamePresenter: class {
 
 class BullsEyePresenter: GamePresenter {
   let messageGenerator: ScoreAlertGenerator
+  let alerter: AlertController
   weak var view: GameViewController?
   var game: Game
 
@@ -36,6 +38,7 @@ class BullsEyePresenter: GamePresenter {
   }
   
   init(view: GameViewController, game: Game = BullsEye()) {
+    self.alerter = AlertController(view: view as! UIViewController)
     self.view = view
     self.game = game
     self.messageGenerator = ScoreAlertGenerator()
@@ -49,8 +52,11 @@ class BullsEyePresenter: GamePresenter {
     print("Points scored: \(pointScored)")
     
     let alertMessage = messageGenerator.congratsMessage(for: pointScored)
-    print(alertMessage)
+    
     syncViewLabels()
+    alerter.popUp(alert: alertMessage, handler: { action in
+      self.newRound()
+    })
   }
   
   func newGame() {

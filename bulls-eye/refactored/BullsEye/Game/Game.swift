@@ -25,8 +25,6 @@ class BullsEye: Game {
   }
   
   func hit(_ value: Int) -> Score {
-    print("Target: \(target)")
-    print("Value: \(value)")
     let score = scoreCalculator.calculate(target: target, hit: value)
     self.score = self.score + score
     return score
