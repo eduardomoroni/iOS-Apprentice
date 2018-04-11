@@ -3,6 +3,9 @@ import Foundation
 protocol GamePresenter: class {
   weak var view: GameViewController? { get set }
   var game: Game { get set }
+  var score: Score { get }
+  var round: Int { get }
+  var target: Int { get }
   
   func hit(_ value: Int)
   func newGame()
@@ -13,6 +16,24 @@ class BullsEyePresenter: GamePresenter {
   weak var view: GameViewController?
   var game: Game
 
+  var target: Int {
+    get {
+      return self.game.target
+    }
+  }
+  
+  var round: Int {
+    get {
+      return self.game.round
+    }
+  }
+  
+  var score: Score {
+    get {
+      return self.game.score
+    }
+  }
+  
   init(view: GameViewController, game: Game = BullsEye()) {
     self.view = view
     self.game = game
@@ -31,6 +52,8 @@ class BullsEyePresenter: GamePresenter {
   }
   
   func newGame() {
-    
+    view?.updateRoundLabel(String(round))
+    view?.updateTargetLabel(String(target))
+    view?.updateScoreLabel(String(describing: score))
   }
 }

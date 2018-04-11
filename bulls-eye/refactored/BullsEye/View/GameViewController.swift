@@ -5,7 +5,9 @@ protocol GameViewController: class {
   var presenter: GamePresenter? { get set }
   var currentValue: Int { get }
 
+  func updateRoundLabel(_ label: String)
   func updateScoreLabel(_ label: String)
+  func updateTargetLabel(_ label: String)
   func hitMeTapped()
   func startNewGame()
 }
@@ -40,9 +42,17 @@ class BullsEyeViewController: UIViewController, GameViewController {
   @IBAction func sliderMoved(_ slider: UISlider) {
     currentValue = lroundf(slider.value)
   }
-
+  
   func updateScoreLabel(_ label: String) {
     scoreLabel.text = String(label)
+  }
+  
+  func updateTargetLabel(_ label: String) {
+    targetLabel.text = String(label)
+  }
+  
+  func updateRoundLabel(_ label: String) {
+    roundLabel.text = String(label)
   }
 
   func loading(_ isLoading: Bool) {
