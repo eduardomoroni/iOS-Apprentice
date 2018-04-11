@@ -25,6 +25,7 @@
 		D29BDF37207E9373008F30D9 /* ScoreAlertGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29BDF36207E9373008F30D9 /* ScoreAlertGenerator.swift */; };
 		D29BDF39207E94E3008F30D9 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29BDF38207E94E3008F30D9 /* Alert.swift */; };
 		D29BDF3B207EAAA0008F30D9 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29BDF3A207EAAA0008F30D9 /* AlertController.swift */; };
+		D29BDF3D207EAFE4008F30D9 /* RandomNumberGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29BDF3C207EAFE4008F30D9 /* RandomNumberGenerator.swift */; };
 		DD848B731EEBA850007D8A56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD848B721EEBA850007D8A56 /* AppDelegate.swift */; };
 		DD848B751EEBA850007D8A56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD848B741EEBA850007D8A56 /* ViewController.swift */; };
 		DD848B781EEBA850007D8A56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD848B761EEBA850007D8A56 /* Main.storyboard */; };
@@ -71,6 +72,7 @@
 		D29BDF36207E9373008F30D9 /* ScoreAlertGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreAlertGenerator.swift; sourceTree = "<group>"; };
 		D29BDF38207E94E3008F30D9 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		D29BDF3A207EAAA0008F30D9 /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		D29BDF3C207EAFE4008F30D9 /* RandomNumberGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomNumberGenerator.swift; sourceTree = "<group>"; };
 		DD4643A51EF214F400E877E9 /* BullsEye.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 		DD848B6F1EEBA850007D8A56 /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD848B721EEBA850007D8A56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				D203E835207CE76A00081BC9 /* Game.swift */,
 				D268BF4B207D117A00BEA227 /* ScoreCalculator.swift */,
 				D29BDF36207E9373008F30D9 /* ScoreAlertGenerator.swift */,
+				D29BDF3C207EAFE4008F30D9 /* RandomNumberGenerator.swift */,
 			);
 			path = Game;
 			sourceTree = "<group>";
@@ -454,6 +457,7 @@
 				D268BF49207D0A2600BEA227 /* Score.swift in Sources */,
 				D29BDF37207E9373008F30D9 /* ScoreAlertGenerator.swift in Sources */,
 				DD848B751EEBA850007D8A56 /* ViewController.swift in Sources */,
+				D29BDF3D207EAFE4008F30D9 /* RandomNumberGenerator.swift in Sources */,
 				D29BDF39207E94E3008F30D9 /* Alert.swift in Sources */,
 				DD848B731EEBA850007D8A56 /* AppDelegate.swift in Sources */,
 				576C244620766C6B008E9B82 /* ScoreCell.swift in Sources */,

@@ -13,7 +13,8 @@ class BullsEye: Game {
   var round = 1
   var target = 100
   var score = Score(0)
-  var scoreCalculator = ScoreCalculator()
+  let scoreCalculator = ScoreCalculator()
+  let numberGenerator = RandomNumberGenerator()
   
   init() {
     target = generateRandomNumber()
@@ -32,11 +33,11 @@ class BullsEye: Game {
 
   private func generateRandomNumber() -> Int {
     var randomTarget = target
-    
+
     while randomTarget == target {
-      randomTarget = 1 + Int(arc4random_uniform(100))
+      randomTarget = numberGenerator.generate()
     }
-    
+
     return randomTarget
   }
 }
